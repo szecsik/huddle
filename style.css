@@ -19,6 +19,7 @@ header{
 
 .number h1{
 	margin-top: 0;
+	font-size: 52px;
 }
 
 .signup{
@@ -284,10 +285,11 @@ position: absolute;
 }
 
 .number h1{
-	font-size: 60px;
+	font-size: 80px;
 	margin-bottom: 0;
 	color: hsl(192, 100%, 9%);
 	font-weight: 700;
+	margin-top: 0;
 	
 }
 
