@@ -254,15 +254,29 @@ width: 80%;
 }
 
 .numbers{
-	margin:3% 0 2% 0;
+	margin:10% 0 2% 0;
 }
 
 .number{
-
+	position:relative;
 	width: 48%;
 	display: inline-block;
 	text-align: center;
 	font-family: 'Poppins',bold;
+	
+}
+
+.number:not(:last-child){
+	margin-bottom: 10%;
+}
+
+.smallimg{
+
+position: absolute;
+    top: -30%;
+    left: 40%;
+
+
 }
 
 .number h1{
@@ -270,6 +284,7 @@ width: 80%;
 	margin-bottom: 0;
 	color: hsl(192, 100%, 9%);
 	font-weight: 700;
+	margin-top: 0;
 }
 
 .number p{
